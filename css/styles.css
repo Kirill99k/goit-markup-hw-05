@@ -668,7 +668,8 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
   border-color: transparent;
-  transition: background 250ms var(--timing-function);
+  transition: background 250ms var(--timing-function),
+    color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .portfolio .button:hover,
