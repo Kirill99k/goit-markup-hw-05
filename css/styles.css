@@ -595,7 +595,8 @@ img {
   height: 100%;
   background-color: var(--modal-background-rgba);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  transition: opacity 250ms var(--timing-function),
+    visibility 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -605,7 +606,7 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .modal {
